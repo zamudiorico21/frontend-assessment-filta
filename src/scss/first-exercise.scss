@@ -1,0 +1,13 @@
+body {
+  margin: 0;
+}
+.hero {
+  position: relative;
+  &__image-background {
+    position: absolute;
+  }
+  &__wrapper {
+    position: absolute;
+    z-index: 1;
+  }
+}
